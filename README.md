@@ -8,15 +8,15 @@ This is the python program which performs text summarization with pronoun replac
 The input text file is read and initial preprocessing is carried out such as tokenization and removing stop words. Then each word is tagged using nltk tagger.
 ### Pronoun Replacement
 
-The pronouns are place holders for proper nouns. The words which are tagged as pronouns are replaced by nearest proper noun. This replacement increases the freqeunncy count of proper noun.
+The pronouns are place holders for proper nouns. The words which are tagged as pronouns are replaced by nearest proper noun. This replacement increases the frequency of proper noun.
 
 ### Weight computing for words and sentences
 
-Based on the frequency of words the weights are computed. The weightage for a sentence is summation of weightage each word present in that sentence.
+Based on the frequency of words the weight of words is computed. The weightage for a sentence is the summation of weightage each word present in that sentence.
 
 ### Summary formation
 
-All the sentences are assigned a priority value dependening on their weightage. The summary is formed based on the user specified ratio by extracting higher priority sentences from the original text.
+All the sentences are assigned a priority value depending on their weightage. The summary is formed based on the user-specified ratio by extracting higher priority sentences from the original text.
 
 # Research Paper
 
